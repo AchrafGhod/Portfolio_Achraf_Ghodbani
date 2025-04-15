@@ -1,12 +1,73 @@
-# React + Vite
+# 🧑‍💻 3D Portfolio – Achraf Ghodbani
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository of my personal **3D developer portfolio**, designed to showcase my skills, creativity, and technical proficiency through interactive 3D animations and a clean, modern frontend architecture.
 
-Currently, two official plugins are available:
+> Built with cutting-edge tools like **Three.js**, **React Three Fiber**, **GSAP**, and **Tailwind CSS** – this project highlights my expertise in frontend and creative development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19**
+- **Three.js**
+- **React Three Fiber**
+- **@react-three/drei**
+- **GSAP (GreenSock Animation Platform)**
+- **Tailwind CSS**
+- **Vite**
+
+---
+
+## 🔋 Features
+
+- 🎮 Animated 3D models and reveal animations  
+- 💡 Realistic lighting and shadow effects  
+- 🎯 GSAP-powered scroll-triggered transitions  
+- 📱 Fully responsive layout (mobile-first design)  
+- 🎛️ Multi-section layout (Hero, About, Projects, Contact)  
+- ⚙️ Micro-interactions and intuitive navigation  
+- 🧩 Modular architecture and reusable components  
+- 📦 Optimized performance using Vite and lazy loading  
+
+---
+
+🔐 Environment Variables
+This project uses EmailJS to power the contact form.
+You will need to create a .env file at the root of the project with the following variables
+
+## ⚙️ Setup & Installation
+
+### 📦 Requirements
+
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/) (`npm install --global yarn`)
+
+### 🔧 Install dependencies
+
+```bash
+yarn install
+```
+🧪 Run the project locally
+
+```bash
+yarn dev
+```
+
+🔐 Environment Variables
+This project uses EmailJS to power the contact form.
+You will need to create a .env file at the root of the project with the following variables
+```bash
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+📬 Contact
+If you'd like to connect or have questions, feel free to reach me at:
+📧 achrafghod.pro@gmail.com
+🔗 LinkedIn
+
+
+
+© 2025 Achraf Ghodbani – All rights reserved.
+
