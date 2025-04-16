@@ -12,6 +12,10 @@ const navLinks = [
     link: "#skills",
   },
   {
+    name: "Academics",
+    link: "#academics",
+  },
+  {
     name: "Testimonials",
     link: "#testimonials",
   },
@@ -196,6 +200,58 @@ const expCards = [
   },
 ];
 
+const academicCards = [
+  /*
+  {
+    logoPath: "/images/logos/upec.png",
+    title: "Master's in Software Engineering – UPEC",
+    date: "2024 – Present",
+    review:
+      "Ongoing specialization in cloud computing, project management and entrepreneurial innovation.",
+    details: [
+      "Currently developing RooMate, a smart roommate-matching platform using Flutter, Supabase and FastAPI.",
+      "Deepening expertise in DevOps, software architecture, and agile team leadership.",
+    ],
+  },*/
+  {
+    logoPath: "/images/logos/udem.jpg",
+    title: "Exchange Program – Université de Montréal & HEC Montréal",
+    date: "2023 – 2024",
+    review:
+      "Recognized as best exchange student (2024) for my leadership and project impact in the Base Entrepreneuriale program.",
+    details: [
+      "Followed a MIAGE curriculum combining software engineering and management disciplines in a North American academic setting.",
+      "Courses covered: object-oriented programming, relational databases, web development, user interface design, and management fundamentals.",
+      "Worked on cross-functional team projects and presented deliverables in startup simulation environments.",
+    ],
+  },
+  {
+    logoPath: "/images/logos/unispn.png",
+    title: "Bachelor's in Computer Science – Université Sorbonne Paris Nord",
+    date: "2021 – 2023",
+    review:
+      "Built a strong technical foundation with a focus on advanced algorithms and system architecture.",
+    details: [
+      "Studied topics such as algorithm design, network architecture, backend programming, and software engineering principles.",
+      "Applied theoretical knowledge in group projects involving Java, SQL, and web technologies.",
+      "Participated in student associations and academic workshops focused on innovation and digital transformation.",
+    ],
+  },
+  {
+    logoPath: "/images/logos/enpo.png",
+    title: "Preparatory Year – École Polytechnique Maurice Audin",
+    date: "2020 – 2021",
+    review:
+      "A year of intensive training in core scientific disciplines and algorithmic logic.",
+    details: [
+      "Completed coursework in mathematics (analysis, linear algebra, probability), logic, algorithmics, and C programming.",
+      "Developed problem-solving skills applicable to software engineering and systems thinking.",
+      "Gained early exposure to engineering methodology and academic rigor in scientific studies.",
+    ],
+  },
+];
+
+
 const expLogos = [
   {
     name: "logo1",
@@ -292,6 +348,7 @@ export {
   logoIconsList,
   counterItems,
   expCards,
+  academicCards,
   expLogos,
   testimonials,
   socialImgs,
