@@ -275,9 +275,9 @@ const socialImgs = [
     imgPath: "/images/fb.png",
   },
   {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "behance",
+    url: "https://www.behance.net/achrafghodbanii",
+    imgPath: "/images/behance.png",
   },
   {
     name: "linkedin",

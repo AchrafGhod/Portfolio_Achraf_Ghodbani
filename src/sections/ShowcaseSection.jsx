@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Button from "../components/Button";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,7 +48,7 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <a href="https://www.mongym.ca/" target="_blank" rel="nopener noreferrer" ref={rydeRef} className="first-project-wrapper block">
             <div className="image-wrapper">
               <img src="/images/project5.png" alt="MonGym App Interface" />
             </div>
@@ -56,8 +57,13 @@ const AppShowcase = () => {
               <p className="text-white-50 md:text-xl">
                 A mobile fitness app built with React Native. Custom UI designed on Figma, workout tracking, API integration. Professional project completed during an internship.
               </p>
+              <Button
+                text="See More Projects"
+                href="https://www.linkedin.com/in/achraf-ghodbani/details/projects/"
+                className="mt-10 mx-auto"
+              />
             </div>
-          </div>
+          </a>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
