@@ -80,6 +80,46 @@ section {
     @apply grid grid-cols-1 xl:grid-cols-12 gap-10;
   }
 
+  /* LinkedIn Card Responsive Utilities */
+  .text-responsive-title {
+    @apply text-base md:text-xl xl:text-2xl;
+  }
+
+  .text-responsive-desc {
+    @apply text-xs md:text-base xl:text-lg;
+  }
+
+  .padding-responsive-card {
+    @apply p-4 md:p-6 xl:p-8;
+  }
+
+  .gap-responsive {
+    @apply gap-2 md:gap-4;
+  }
+
+  .size-responsive {
+    @apply size-4 md:size-6 xl:size-8;
+  }
+
+  .text-responsive-link {
+    @apply text-xs md:text-sm xl:text-base;
+  }
+
+  .mt-responsive-link {
+    @apply mt-1 md:mt-4;
+  }
+
+  .min-h-responsive-card {
+    @apply min-h-[250px] md:min-h-[300px];
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .hero-layout {
     @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
   }
