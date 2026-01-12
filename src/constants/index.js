@@ -152,11 +152,34 @@ const techStackIcons = [
 const expCards = [
   {
     review:
+      "Achraf demonstrates expertise in modern React architectures and shows strong initiative in complex migration projects. His attention to performance and accessibility standards ensures production-ready solutions.",
+    imgPath: "/images/logos/sephora.png",
+    logoPath: "/images/logo-sephora.png",
+    title: "Web Frontend Engineer",
+    date: "September 2025 - Present",
+    contractType: "Alternance",
+    domain: "Frontend",
+    status: "Actuel",
+    tags: ["On-site", "React", "Next.js"],
+    responsibilities: [
+      "Developing and optimizing front-end Sephora website with React JS and Next.js.",
+      "Contributing to the migration from Salesforce Commerce Cloud to a Headless architecture.",
+      "Collaborating closely with Tech Leads, UX/UI Designers, Product Owners, and Testers to enhance digital solutions.",
+      "Optimizing web performance, SEO, and accessibility compliance across all interfaces.",
+      "Conducting unit testing, code reviews, and contributing to corrective maintenance.",
+    ],
+  },
+  {
+    review:
       "Achraf adapted quickly to our tech stack and contributed with clean, reusable components. His proactive mindset helped streamline our delivery.",
     imgPath: "/images/logos/company-logo-9.png",
     logoPath: "/images/logo1.png",
     title: "Mobile & Frontend Developer",
     date: "April - August 2024",
+    contractType: "Stage",
+    domain: "Frontend",
+    status: "Passé",
+    tags: ["Hybrid", "React Native", "Expo"],
     responsibilities: [
       "Developed UI components using React Native and Expo.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -174,6 +197,10 @@ const expCards = [
     logoPath: "/images/logo2.png",
     title: "Junior Software Engineer",
     date: "April 2023 - January 2024",
+    contractType: "Full-time",
+    domain: ["Frontend", "Design"],
+    status: "Passé",
+    tags: ["React.js", "TypeScript", "Next.js"],
     responsibilities: [
       "Collaborated with major brands such as Lacoste, Toyota, and OnLocation to enhance their digital presence during the lead-up to the Paris 2024 Olympic & Paralympic Games",
       "Developed frontend interfaces using React.js, TypeScript, and Next.js, ensuring responsive design and accessibility compliance (WCAG 2.1)",
@@ -190,6 +217,10 @@ const expCards = [
     logoPath: "/images/logo3.png",
     title: "Assistant Project Manager",
     date: "May – August 2021",
+    contractType: "Stage",
+    domain: "PMO",
+    status: "Passé",
+    tags: ["Jira", "Confluence", "Postman"],
     responsibilities: [
       "Participated in defining functional and technical specifications in collaboration with developers and business stakeholders",
       "Tracked project milestones and task assignments using Jira and generated weekly progress reports for internal and client use",
