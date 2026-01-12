@@ -5,6 +5,7 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import FeatureCards from "./sections/FeatureCards";
 import ExperienceSection from "./sections/ExperienceSection";
 import TechStack from "./sections/TechStack";
+import LinkedInSection from "./sections/LinkedInSection";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
@@ -16,12 +17,13 @@ const App = () => {
       <NavBar />
       <Hero />
       <ShowcaseSection />
-      <LogoSection />
       <FeatureCards />
-      <ExperienceSection />
       <TechStack />
+      <ExperienceSection />
       <AcademicSection />
       <Testimonials />
+      <LogoSection />
+      <LinkedInSection />
       <Contact />
       <Footer />
     </>
