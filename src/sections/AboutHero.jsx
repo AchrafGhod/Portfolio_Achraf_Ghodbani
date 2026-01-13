@@ -26,7 +26,7 @@ const AboutHero = () => {
           />
           
           <CardContentGrid>
-            <ProfileImage src={imageSrc} alt="Profile" />
+            <ProfileImage src={imageSrc} alt={`Profile photo of ${headline}`} />
             <ContentSection 
               sections={sections} 
               isExpanded={isExpanded} 

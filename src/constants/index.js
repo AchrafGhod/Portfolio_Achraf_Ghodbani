@@ -33,7 +33,7 @@ const aboutHeroData = {
     "As a motivated and ambitious student, I'm passionate about the ever-evolving world of web and new technologies, with a strong focus on programming, design, and software development. I thrive in collaborative environments and aspire to grow into a senior software engineer, combining technical expertise with effective leadership.",
     "Currently, I work as a Front-End Apprentice Engineer at Sephora (LVMH Group), contributing to the headless e-commerce migration project, while pursuing a Master's in Software Engineering & Design at Sorbonne.",
     "Having studied at the University of Montreal and HEC Montreal, I've developed a global mindset and a strong foundation in innovation and technology.",
-    "Fluent in four languages and a ex-competitive tennis athlete, I bring discipline, adaptability, and creativity to every project."
+    "Fluent in four languages and an ex-competitive tennis athlete, I bring discipline, adaptability, and creativity to every project."
   ],
 };
 

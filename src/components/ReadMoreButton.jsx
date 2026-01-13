@@ -5,12 +5,12 @@ const ReadMoreButton = ({ isExpanded, onToggle }) => (
   >
     {isExpanded ? (
       <>
-        Voir moins
+        Read less
         <span className="transition-transform group-hover:-translate-y-0.5">↑</span>
       </>
     ) : (
       <>
-        Voir plus
+        Read more
         <span className="transition-transform group-hover:translate-y-0.5">↓</span>
       </>
     )}
