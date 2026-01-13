@@ -10,12 +10,14 @@ import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import AcademicSection from "./sections/AcademicSection";
+import AboutHero from "./sections/AboutHero";
 
 const App = () => {
   return (
     <>
       <NavBar />
       <Hero />
+      <AboutHero />
       <ShowcaseSection />
       <FeatureCards />
       <TechStack />
