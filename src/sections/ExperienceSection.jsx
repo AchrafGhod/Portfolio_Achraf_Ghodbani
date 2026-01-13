@@ -65,21 +65,33 @@ const Experience = () => {
   }, []);
 
   const handleContractFilter = useCallback((value) => {
-    setContractFilters((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
-    );
+    if (value === "All") {
+      setContractFilters([]);
+    } else {
+      setContractFilters((prev) =>
+        prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+      );
+    }
   }, []);
 
   const handleDomainFilter = useCallback((value) => {
-    setDomainFilters((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
-    );
+    if (value === "All") {
+      setDomainFilters([]);
+    } else {
+      setDomainFilters((prev) =>
+        prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+      );
+    }
   }, []);
 
   const handleStatusFilter = useCallback((value) => {
-    setStatusFilters((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
-    );
+    if (value === "All") {
+      setStatusFilters([]);
+    } else {
+      setStatusFilters((prev) =>
+        prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+      );
+    }
   }, []);
 
   const hasActiveFilters = contractFilters.length > 0 || domainFilters.length > 0 || statusFilters.length > 0;
@@ -204,10 +216,10 @@ const Experience = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Voir CV complet
+              View full resume
             </a>
             <a className="exp-cta" href="#contact">
-              Me contacter
+              Contact me
             </a>
           </div>
         </div>

@@ -159,7 +159,7 @@ const expCards = [
     date: "September 2025 - Present",
     contractType: "Alternance",
     domain: "Frontend",
-    status: "Actuel",
+    status: "Current",
     tags: ["On-site", "React", "Next.js"],
     responsibilities: [
       "Developing and optimizing front-end Sephora website with React JS and Next.js.",
@@ -178,7 +178,7 @@ const expCards = [
     date: "April - August 2024",
     contractType: "Stage",
     domain: "Frontend",
-    status: "Passé",
+    status: "Past",
     tags: ["Hybrid", "React Native", "Expo"],
     responsibilities: [
       "Developed UI components using React Native and Expo.",
@@ -199,7 +199,7 @@ const expCards = [
     date: "April 2023 - January 2024",
     contractType: "Full-time",
     domain: ["Frontend", "Design"],
-    status: "Passé",
+    status: "Past",
     tags: ["React.js", "TypeScript", "Next.js"],
     responsibilities: [
       "Collaborated with major brands such as Lacoste, Toyota, and OnLocation to enhance their digital presence during the lead-up to the Paris 2024 Olympic & Paralympic Games",
@@ -219,7 +219,7 @@ const expCards = [
     date: "May – August 2021",
     contractType: "Stage",
     domain: "PMO",
-    status: "Passé",
+    status: "Past",
     tags: ["Jira", "Confluence", "Postman"],
     responsibilities: [
       "Participated in defining functional and technical specifications in collaboration with developers and business stakeholders",

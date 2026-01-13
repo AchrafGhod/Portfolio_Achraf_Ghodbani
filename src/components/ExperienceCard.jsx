@@ -32,7 +32,7 @@ const ExperienceCard = memo(
                   {card.status ? (
                     <span
                       className={`exp-tag status ${
-                        card.status === "Actuel"
+                        card.status === "Current"
                           ? "status-live"
                           : "status-past"
                       }`}
