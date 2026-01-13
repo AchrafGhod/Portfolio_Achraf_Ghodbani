@@ -5,7 +5,6 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { projectShowcase, showcaseCategories } from "../constants";
-import TitleHeader from "../components/TitleHeader";
 import GlowCardContainer from "../components/GlowCardContainer";
 
 gsap.registerPlugin(ScrollTrigger);

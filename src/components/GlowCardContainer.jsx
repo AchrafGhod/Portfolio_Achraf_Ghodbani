@@ -13,7 +13,6 @@ import { useRef } from "react";
  * - children: React node - Card content
  * - className: string - Additional classes for the card
  * - glowColor: string (optional) - Hex color for glow effect (default: #3b82f6)
- * - index: number (optional) - Index for tracking multiple cards
  * - onMouseMove: function (optional) - Additional mouse move handler
  * - ...props: Any other HTML attributes
  * 
@@ -27,7 +26,6 @@ const GlowCardContainer = ({
   children,
   className = "",
   glowColor = "#3b82f6",
-  index = 0,
   onMouseMove: externalMouseMove,
   ...props
 }) => {

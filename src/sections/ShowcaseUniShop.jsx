@@ -8,6 +8,10 @@ const ShowcaseUniShop = () => {
     []
   );
 
+  if (!project) {
+    return null;
+  }
+
   return <ShowcaseProjectPage project={project} />;
 };
 

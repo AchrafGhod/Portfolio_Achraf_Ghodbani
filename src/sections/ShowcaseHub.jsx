@@ -14,7 +14,7 @@ const ShowcaseHub = () => {
   const navigate = useNavigate();
   const [hoveredCategory, setHoveredCategory] = useState(null);
 
-  // Compter les projets par catégorie
+  // Count projects by category
   const projectCountByCategory = useMemo(() => {
     return showcaseCategories.reduce((acc, cat) => {
       acc[cat.id] = projectShowcase.filter(p => p.categories.includes(cat.id)).length;

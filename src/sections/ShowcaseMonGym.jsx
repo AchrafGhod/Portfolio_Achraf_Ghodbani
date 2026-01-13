@@ -8,6 +8,10 @@ const ShowcaseMonGym = () => {
     []
   );
 
+  if (!project) {
+    return null;
+  }
+
   return <ShowcaseProjectPage project={project} />;
 };
 

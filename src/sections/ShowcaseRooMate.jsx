@@ -8,6 +8,10 @@ const ShowcaseRooMate = () => {
     []
   );
 
+  if (!project) {
+    return null;
+  }
+
   return <ShowcaseProjectPage project={project} />;
 };
 
