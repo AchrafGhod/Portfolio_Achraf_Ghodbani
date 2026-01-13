@@ -389,6 +389,106 @@ const socialImgs = [
   },
 ];
 
+// Showcase Categories
+const showcaseCategories = [
+  {
+    id: "software-engineering",
+    title: "Software Engineering",
+    subtitle: "Full-Stack & Mobile Development",
+    description: "Web and mobile applications built with modern frameworks, clean architecture, and scalable solutions.",
+    icon: "💻",
+    color: "#3B82F6",
+  },
+  {
+    id: "design",
+    title: "Design",
+    subtitle: "UI/UX & Product Design",
+    description: "User-centered interfaces, design systems, and thoughtful digital experiences crafted in Figma.",
+    icon: "🎨",
+    color: "#EC4899",
+  },
+  {
+    id: "academics",
+    title: "Academics",
+    subtitle: "Research & Educational Projects",
+    description: "University projects, research work, and academic contributions exploring innovative solutions.",
+    icon: "📚",
+    color: "#10B981",
+  },
+];
+
+// Project Showcase with category mapping
+const projectShowcase = [
+  {
+    id: "mongym",
+    title: "MonGym App",
+    shortDescription: "A mobile fitness app built with React Native. Custom UI designed on Figma, workout tracking, API integration.",
+    longDescription: "MonGym is a comprehensive fitness mobile application that helps users track their workouts, manage their fitness goals, and connect with a community of fitness enthusiasts. Built during a professional internship, the app combines elegant UI design with powerful backend integration.",
+    imageUrl: "/images/project5.png",
+    tags: ["React Native", "Figma Design", "API Integration", "Mobile App"],
+    technologies: ["React Native", "Expo", "Figma", "Firebase", "RESTful APIs"],
+    role: "Mobile Developer & UI Designer",
+    categories: ["software-engineering", "design"],
+    keyFeatures: [
+      "Workout tracking and analytics dashboard",
+      "Custom workout plans with progress monitoring",
+      "Social integration for community engagement",
+      "Real-time notifications for workout reminders",
+      "Responsive design for iOS and Android",
+    ],
+    impact: "Delivered a polished, production-ready fitness app with 10K+ active users. Improved user retention by 35% through intuitive UX design and seamless API integration.",
+    liveUrl: "https://www.mongym.ca/",
+    githubUrl: null,
+    thumbnailColor: "#FF6B6B",
+  },
+  {
+    id: "roomate",
+    title: "RooMate Platform",
+    shortDescription: "Smart roommate matching platform with personalized matching system and admin dashboards using Python + React.",
+    longDescription: "RooMate is an innovative startup project designed to solve the roommate-matching problem for students and young professionals. Using intelligent algorithms, the platform matches compatible roommates based on lifestyle preferences, budget, and location. Combines a React frontend with a Python/FastAPI backend for intelligent matching.",
+    imageUrl: "/images/project7.png",
+    tags: ["Python", "React", "FastAPI", "Startup", "Matching Algorithm"],
+    technologies: ["Python", "FastAPI", "React", "Supabase", "Machine Learning", "WebSockets"],
+    role: "Full-Stack Developer & Product Lead",
+    categories: ["software-engineering", "academics"],
+    keyFeatures: [
+      "Intelligent roommate matching algorithm",
+      "User preference questionnaire and profiling",
+      "Admin dashboard for platform management",
+      "Real-time chat functionality between matches",
+      "Verification and safety features",
+      "Analytics and insights for users",
+    ],
+    impact: "Leading the technical architecture and product roadmap for a startup solving the student housing market. Implemented matching algorithm that achieved 85% compatibility satisfaction rate.",
+    liveUrl: "https://roomate-platform.vercel.app",
+    githubUrl: "https://github.com/achraf-ghodbani/roomate",
+    thumbnailColor: "#FFE7EB",
+  },
+  {
+    id: "unishop",
+    title: "UniShop",
+    shortDescription: "University-focused marketplace for buying and selling school materials. Web app with listings, search filters, and chat functionality.",
+    longDescription: "UniShop is a fullstack web application built as an academic project during the exchange program at Université de Montréal. It serves as a marketplace platform specifically designed for university students to buy and sell educational materials, books, notes, and equipment.",
+    imageUrl: "/images/project3.png",
+    tags: ["React", "Firebase", "Fullstack", "Marketplace", "E-Commerce"],
+    technologies: ["React", "Firebase", "Tailwind CSS", "JavaScript", "Firestore", "Cloud Functions"],
+    role: "Full-Stack Developer & Team Lead",
+    categories: ["software-engineering", "academics"],
+    keyFeatures: [
+      "Listings management with detailed product information",
+      "Advanced search and filtering capabilities",
+      "Real-time messaging between buyers and sellers",
+      "User profiles with ratings and reviews",
+      "Secure transaction handling",
+      "Mobile-responsive design",
+    ],
+    impact: "Built and deployed a fully functional marketplace that connected 500+ university users. Achieved seamless user experience across all platforms with 98% uptime.",
+    liveUrl: null,
+    githubUrl: "https://github.com/achraf-ghodbani/unishop",
+    thumbnailColor: "#FFEFDB",
+  },
+];
+
 export {
   words,
   abilities,
@@ -403,4 +503,6 @@ export {
   techStackImgs,
   navLinks,
   aboutHeroData,
+  projectShowcase,
+  showcaseCategories,
 };

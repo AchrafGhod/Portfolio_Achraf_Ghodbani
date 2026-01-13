@@ -17,7 +17,7 @@ const AboutHero = () => {
         <TitleHeader title="First, discover my profile" sub="👤 Who I Am & My Journey" />
       </section>
 
-      <section id="about-hero" className="flex items-center justify-center py-12 md:py-16 lg:py-20">
+      <section id="about-hero" className="flex items-center justify-center section-padding">
         <CardContainer>
           <CardTitleSection 
             headline={headline} 

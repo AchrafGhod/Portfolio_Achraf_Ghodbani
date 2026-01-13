@@ -548,6 +548,7 @@ section {
 
 .card {
   --start: 0;
+  --glow-color: #3b82f6;
   position: relative;
   z-index: 40;
   overflow: hidden;
@@ -564,14 +565,14 @@ section {
   transform: translate(-50%, -50%);
   border-radius: 12px;
   border: 2px solid transparent;
-  background: var(--gradient);
+  background: var(--glow-color);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
     conic-gradient(
       from calc((var(--start) - 15) * 1deg),
-      #ffffff1f 0deg,
-      white,
-      #ffffff00 100deg
+      transparent 0deg,
+      var(--glow-color),
+      transparent 100deg
     );
   mask-composite: intersect;
   mask-clip: padding-box, border-box;
@@ -587,8 +588,7 @@ section {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  filter: blur(10px);
-  filter: saturate(200);
+  filter: blur(10px) saturate(200%);
 }
 
 .card:hover::before {
