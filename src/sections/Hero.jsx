@@ -64,13 +64,12 @@ const Hero = () => {
         </header>
 
         {/* RIGHT: 3D Model or Visual */}
-        <figure>
+        <figure className="hidden xl:block">
           <div className="hero-3d-layout">
             <HeroExperience />
           </div>
         </figure>
       </div>
-
       <AnimatedCounter />
     </section>
   );
